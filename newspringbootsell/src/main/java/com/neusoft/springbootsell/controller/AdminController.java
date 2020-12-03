@@ -1,6 +1,7 @@
 package com.neusoft.springbootsell.controller;
 
 import com.neusoft.springbootsell.dataobject.Admin;
+import com.neusoft.springbootsell.exception.AdminException;
 import com.neusoft.springbootsell.form.AdminForm;
 import com.neusoft.springbootsell.services.AdminService;
 import com.neusoft.springbootsell.services.impl.AdminServiceImpl;
@@ -38,44 +39,42 @@ public class AdminController {
         }
         if (!form.getUsername().equals(form.getPassword())){
             map.put("msg","两次密码不一致");
-            map.put("url","/seller/user/register");
+            map.put("url","/seller/admin/register");
             return new ModelAndView("common/error", map);
         }
-        Admin user = new Admin();
+        Admin admin = new Admin();
         try{
-            user.setOpenid(form.getOpenid());
-            user.setUsername(form.getUsername());
-            user.setPassword(form.getFirpassword());
-            userService.res(user);
-        }catch (UserException e){
+            admin.setUsername(form.getUsername());
+            admin.setPassword(form.getPassword());
+            adminService.res(admin);
+        }catch (AdminException e){
             map.put("msg",e.getMessage());
-            map.put("url","/seller/user/register");
+            map.put("url","/seller/admin/register");
             return new ModelAndView("common/error", map);
         }
-        map.put("url","/seller/user/register");
+        map.put("url","/seller/admin/register");
         return new ModelAndView("common/success", map);
     }
 
     @PostMapping("/login")
-    public ModelAndView login(@Valid UserForm form,
+    public ModelAndView login(@Valid AdminForm form,
                               BindingResult bindingResult,
                               Map<String, Object> map){
         if (bindingResult.hasErrors()){
             // 返回错误页面
             map.put("msg", bindingResult.getFieldError().getDefaultMessage());
-            map.put("url", "/seller/user/login");
+            map.put("url", "/seller/Admin/login");
             return new ModelAndView("common/error", map);
         }
         try{
-            userService.login(form.getOpenid(),form.getFirpassword());
-        }catch (UserException e){
+            adminService.login(form.getUsername(),form.getPassword());
+        }catch (AdminException e){
             map.put("msg",e.getMessage());
-            map.put("url","/seller/user/login");
+            map.put("url","/seller/admin/login");
             return new ModelAndView("common/error", map);
         }
-        map.put("url"," ");
+        map.put("url","/seller/product/list");
         return new ModelAndView("common/success", map);
     }
 
-}
 }

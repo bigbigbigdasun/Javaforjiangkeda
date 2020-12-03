@@ -1,34 +1,22 @@
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <style>
-        .content{
-            width: 800px;
-            height:800px;
-            /*background:no-repeat,fixed,*/
-            /*url(images/吃.jpg);*/
-            /*background-size:100% 100% ;*/
-        }
-        .yonghuming{
-
-        }
-    </style>
-</head>
+<html lang="zh" xmlns="http://www.w3.org/1999/html">
 <body>
-<div class="content">
-    <form role="form" method="post" action="/admin/admin/index">
-    <div class="yonghuming">
-<label >用户名：</label>
-<input name="username" type=text" value="${(productInfo.productDescription)!''}" />
-    </div>
-    <div class="mima">
-    <label >密码：</label>
-    <input name="password" type=text" value="${(productInfo.productDescription)!''}" />
-    </div>
-<button type="submit" >提交</button>
-</form>
-</div>
 
+
+            <form class="form-horizontal" role="form" action="/seller/admin/login" method="post">
+
+                    <label for="inputOpenid" class="col-sm-2 control-label">用户名：</label>
+                <input name="username" type="text" />
+                    <label for="inputPassword" class="l">密码：</label>
+                        <input name="password" type="password" />
+
+                            <label><input type="checkbox" />记住密码</label>
+                <a href="/seller/product/list">
+                    <button type="submit" class="denglu">登录</button>
+                </a>
+                    <a href="/seller/admin/register">
+                        <button type="button" class="zhuce">注册</button>
+                    </a>
+                </span>
+            </form>
 </body>
 </html>

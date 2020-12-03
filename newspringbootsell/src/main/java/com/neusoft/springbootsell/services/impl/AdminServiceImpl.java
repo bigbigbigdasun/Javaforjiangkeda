@@ -1,7 +1,5 @@
 package com.neusoft.springbootsell.services.impl;
 
-import com.neusoft.springbootsell.dao.AdminDao;
-import com.neusoft.springbootsell.dao.impl.AdminDaoImpl;
 import com.neusoft.springbootsell.dataobject.Admin;
 import com.neusoft.springbootsell.enums.ResultEnum;
 import com.neusoft.springbootsell.exception.AdminException;
@@ -33,14 +31,14 @@ public class AdminServiceImpl implements AdminService {
     public Admin login(String Username, String Password) {
         Admin result = repository.findByUsername(Username);
         if(result == null){
-            throw new AdminException(ResultEnum.ADMIN_EXIST);
+            throw new AdminException(ResultEnum.ADMIN_MISS);
         }
         if(!Password.equals(result.getPassword())){
             throw new AdminException(ResultEnum.ADMIN_PASSWORD_ERROR);
         }
-        Admin user = new Admin();
-        user.setUsername(Username);
-        user.setPassword(Password);
-        return user;
+        Admin admin = new Admin();
+        admin.setUsername(Username);
+        admin.setPassword(Password);
+        return admin;
     }
 }
