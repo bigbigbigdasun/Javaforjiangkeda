@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5fbdf283-9f5b-400a-b323-02d6b8668078" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1kXD6wsTQirSafIaOhtCosO4JFz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../newspringbootsell" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.neusoft.utils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lenovo\Documents\GitHub\jiangkeda\Javaforjiangkeda\sell_admin\libs" />
+      <recent name="C:\Users\lenovo\Documents\GitHub\jiangkeda\Javaforjiangkeda\sell_admin" />
+      <recent name="C:\Users\lenovo\Documents\GitHub\jiangkeda\Javaforjiangkeda\sell_admin\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.BusinessAdminEntry">
+    <configuration name="BusinessAdminEntry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.neusoft.BusinessAdminEntry" />
+      <module name="sell_admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.neusoft.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ElmAdminEntry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.neusoft.ElmAdminEntry" />
+      <module name="sell_admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.neusoft.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.neusoft.Main" />
+      <module name="sell_admin" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.neusoft.Test" />
+      <module name="sell_admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.neusoft.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BusinessAdminEntry" />
+        <item itemvalue="Application.ElmAdminEntry" />
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5fbdf283-9f5b-400a-b323-02d6b8668078" name="Default Changelist" comment="" />
+      <created>1605837870759</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605837870759</updated>
+      <workItem from="1605837873880" duration="4800000" />
+      <workItem from="1605851906033" duration="12608000" />
+      <workItem from="1606029781208" duration="5171000" />
+      <workItem from="1606093536249" duration="8120000" />
+      <workItem from="1606110030729" duration="13770000" />
+      <workItem from="1606129329865" duration="12739000" />
+      <workItem from="1606179001889" duration="2221000" />
+      <workItem from="1606181324204" duration="11368000" />
+      <workItem from="1606266871305" duration="1007000" />
+      <workItem from="1606269351778" duration="1746000" />
+      <workItem from="1606284302485" duration="135000" />
+      <workItem from="1606814282569" duration="542000" />
+      <workItem from="1606870815135" duration="3115000" />
+      <workItem from="1606896342032" duration="3491000" />
+      <workItem from="1606957640579" duration="758000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="239" y="66" key="#com.intellij.ide.util.MemberChooser" timestamp="1606192994249">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="239" y="66" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1606192994249" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605857598063">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1605857598063" />
+    <state x="217" y="95" key="FileChooserDialogImpl" timestamp="1606957707267">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="217" y="95" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606957707267" />
+    <state width="1323" height="432" key="GridCell.Tab.0.bottom" timestamp="1606197518562">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="432" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606197518562" />
+    <state width="1323" height="432" key="GridCell.Tab.0.center" timestamp="1606197518561">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="432" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1606197518561" />
+    <state width="1323" height="432" key="GridCell.Tab.0.left" timestamp="1606197518561">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="432" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1606197518561" />
+    <state width="1323" height="432" key="GridCell.Tab.0.right" timestamp="1606197518561">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="432" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1606197518561" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1606144445615">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606144445615" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1606144445615">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1606144445615" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1606144445615">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1606144445615" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1606144445615">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1606144445615" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1606197727561">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1606197727561" />
+    <state x="662" y="249" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1605841652102">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="662" y="249" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.728@0.0.1366.728" timestamp="1605841652102" />
+    <state x="57" y="24" key="new project wizard" timestamp="1606181235754">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="57" y="24" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1606181235754" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1606100622918">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1606100622918" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/neusoft/view/impl/AdminViewImpl.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
